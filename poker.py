@@ -5,7 +5,8 @@
 # Ex. flush(["2H", "5H", "4H", "AD", "AC"]) should be False
 
 def flush(hand):
-    # TODO: Write code!
+    # TODO: Write code! (Delete the next line)
+    pass
 
 # --------------------------------------PROBLEM 2--------------------------------------
 
@@ -14,7 +15,8 @@ def flush(hand):
 # Ex. straight(["6C", "8C", "7C", "9D", "JD"]) should be False
 
 def straight(hand):
-    # TODO: Write code!
+    # TODO: Write code! (Delete the next line)
+    pass
 
 # --------------------------------------PROBLEM 3--------------------------------------
 
@@ -27,8 +29,6 @@ def straight(hand):
 def rank(hand):
     if straight(hand) and flush(hand):
         return 8
-    else:
-        return 0
     # TODO: Write code!
 
 # THIS MIGHT BE HELPFUL???
@@ -50,4 +50,5 @@ def counts(hand):
 
 def winner(hand1, hand2):
     # TODO: Write code!
+    pass
     
